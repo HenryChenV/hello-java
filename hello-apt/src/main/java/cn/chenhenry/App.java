@@ -1,4 +1,4 @@
-package cn.chenhenry.java;
+package cn.chenhenry;
 
 /**
  * Hello world!
