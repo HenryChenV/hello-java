@@ -1,4 +1,4 @@
-package com.henry.hello-java;
+package cn.chenhenry.java;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

@@ -1,4 +1,4 @@
-package com.henry.hello-java;
+package cn.chenhenry.java;
 
 /**
  * Hello world!
