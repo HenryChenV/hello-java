@@ -4,10 +4,12 @@
   <groupId>com.henry.java</groupId>
   <artifactId>hello-java</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <packaging>jar</packaging>
+  <packaging>pom</packaging>
   <name>hello-java</name>
   <modules>
     <module>hello-apt</module>
     <module>hello-core</module>
+    <module>hello-stream</module>
+    <module>hello-transient</module>
   </modules>
 </project>
