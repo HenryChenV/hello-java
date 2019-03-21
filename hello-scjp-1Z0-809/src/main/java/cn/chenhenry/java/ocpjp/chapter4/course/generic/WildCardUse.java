@@ -1,6 +1,7 @@
 package cn.chenhenry.java.ocpjp.chapter4.course.generic;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 class WildCardUse {
