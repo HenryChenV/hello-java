@@ -19,6 +19,6 @@ class StrLastError<S extends CharSequence> extends LastError<String> {
 class Test {
     public static void main(String[] args) {
         StrLastError<String> err = new StrLastError<String>("Error");
-        err.setError("Last Error");
+        // err.setError("Last Error");
     }
 }
