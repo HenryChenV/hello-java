@@ -1,5 +1,6 @@
 package cn.chenhenry.java.ocpjp.chapter3.course.lambda;
 
+@FunctionalInterface
 interface SuffixFunction {
     void call();
 }

@@ -28,6 +28,7 @@ public class BlockLambda {
 }
 
 class AnonymousInnerClass {
+    @FunctionalInterface
     interface Function {
         void call();
     }
