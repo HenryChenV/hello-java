@@ -13,5 +13,6 @@
     <module>hello-jvm</module>
     <module>hello-scjp-1Z0-809</module>
     <module>hello-world</module>
+    <module>hello-pattern</module>
   </modules>
 </project>
