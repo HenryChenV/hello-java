@@ -13,8 +13,9 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
-        listAll(1, 2, 3, 4);
+        System.out.println(Arrays.toString("1.2.3.4.5".split("\\.")));
+        // System.out.println( "Hello World!" );
+        // listAll(1, 2, 3, 4);
     }
 
     private static final void listAll(Integer... ints) {

@@ -32,3 +32,4 @@ hello-core/hello-core.iml
 hello-transient/hello-transient.iml
 */target
 hello-java.iml
+.DS_Store
