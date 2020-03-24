@@ -2,6 +2,7 @@ package cn.chenhenry.java.forkjoin;
 
 import com.sun.tools.doclets.formats.html.SourceToHTMLConverter;
 import javafx.scene.effect.BlurType;
+import org.junit.Test;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
@@ -83,6 +84,10 @@ public class ForkBlur extends RecursiveAction {
         );
     }
 
+    void afterTopLevelExec() {
+        System.out.println("afterTopLevelExec");
+    }
+
     public static void main(String[] args) throws IOException {
         String srcName = "red-tulips.jpg";
         File srcFile = new File(srcName);
@@ -129,4 +134,5 @@ public class ForkBlur extends RecursiveAction {
 
         return dstImage;
     }
+
 }
