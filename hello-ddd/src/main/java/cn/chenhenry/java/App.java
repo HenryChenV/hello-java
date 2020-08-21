@@ -1,8 +1,5 @@
 package cn.chenhenry.java;
 
-import java.util.concurrent.Executors;
-import java.util.concurrent.ThreadPoolExecutor;
-
 /**
  * Hello world!
  *

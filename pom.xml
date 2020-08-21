@@ -28,6 +28,7 @@
     <module>hello-pattern</module>
     <module>hello-concurrency</module>
     <module>hello-leetcode</module>
+    <module>hello-ddd</module>
   </modules>
 
   <dependencies>
