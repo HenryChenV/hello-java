@@ -29,6 +29,12 @@
     <module>hello-concurrency</module>
     <module>hello-leetcode</module>
     <module>hello-ddd</module>
+    <module>hello-spi</module>
+    <module>hello-spi-test</module>
+    <module>hello-spi-impl1</module>
+    <module>hello-spi-impl2</module>
+    <module>hello-spi-impl3</module>
+    <module>hello-spi-impl4</module>
   </modules>
 
   <dependencies>

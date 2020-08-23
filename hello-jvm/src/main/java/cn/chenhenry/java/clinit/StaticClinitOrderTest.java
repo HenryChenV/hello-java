@@ -14,6 +14,8 @@ public class StaticClinitOrderTest {
         System.out.println(A.val2);
         System.out.println(A.val3);
         System.out.println(A.val4);
+
+        while (true);
     }
 
 }
@@ -47,8 +49,8 @@ class A {
 
     A() {
         System.out.println("in A() val1=" + val1 + ",val2=" + val2 + "val3=" + val3 + "val4=" + val4);
-        val1 = 1;
-        val2 = 2;
+        val1++;
+        val2++;
         val3 = new XX(3);
         val4 = new XX(4);
         System.out.println("in A() val1=" + val1 + ",val2=" + val2 + "val3=" + val3 + "val4=" + val4);
