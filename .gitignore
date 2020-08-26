@@ -25,4 +25,11 @@ hs_err_pid*
 
 #idea
 .idea/
+
 powertools
+hello-apt/hello-apt.iml
+hello-core/hello-core.iml
+hello-transient/hello-transient.iml
+*/target
+hello-java.iml
+.DS_Store
