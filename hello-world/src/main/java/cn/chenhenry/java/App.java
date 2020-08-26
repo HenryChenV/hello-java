@@ -4,9 +4,9 @@ import org.junit.Test;
 
 import java.lang.reflect.Array;
 import java.nio.file.Files;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Optional;
+import java.util.*;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 /**
  * Hello world!
@@ -38,5 +38,14 @@ public class App
 
         System.out.println(ints.getClass());
         System.out.println(ints);
+    }
+
+    @Test
+    public void testToMap() {
+        Stream.of(1, 2, 3).collect(Collectors.toMap(
+                item -> item,
+                item -> null  // 空指针
+        ));
+
     }
 }
