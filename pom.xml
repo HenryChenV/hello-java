@@ -21,6 +21,7 @@
   <modules>
     <module>hello-apt</module>
     <module>hello-core</module>
+    <module>hello-generics</module>
     <module>hello-transient</module>
     <module>hello-jvm</module>
     <module>hello-scjp-1Z0-809</module>
