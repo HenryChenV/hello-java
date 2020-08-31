@@ -36,6 +36,7 @@
     <module>hello-spi-impl2</module>
     <module>hello-spi-impl3</module>
     <module>hello-spi-impl4</module>
+    <module>hello-validation</module>
   </modules>
 
   <dependencies>

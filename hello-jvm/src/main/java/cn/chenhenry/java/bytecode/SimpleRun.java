@@ -8,6 +8,8 @@ import java.text.SimpleDateFormat;
  */
 public class SimpleRun {
 
+    private static int a = 1;
+
     public static void main(String[] args) {
         SimpleRun run = new SimpleRun();
 
