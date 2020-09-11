@@ -37,6 +37,8 @@
     <module>hello-spi-impl3</module>
     <module>hello-spi-impl4</module>
     <module>hello-validation</module>
+    <module>hello-javaagent</module>
+    <module>hello-javaagent-test</module>
   </modules>
 
   <dependencies>

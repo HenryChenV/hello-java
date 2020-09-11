@@ -1,5 +1,7 @@
 package cn.chenhenry.java;
 
+import org.junit.Test;
+
 public class StringTest {
 
     public void testSubString() {
@@ -17,6 +19,13 @@ public class StringTest {
     public static void main(String[] args) {
         StringTest stringTest = new StringTest();
         stringTest.testSubString();
+    }
+
+    @Test
+    public void testStringFormat() {
+        Object[] args = new Object[0];
+        System.out.println(String.format("xxxxx"));
+        System.out.println(String.format("xxxxx", args));
     }
 
 }
