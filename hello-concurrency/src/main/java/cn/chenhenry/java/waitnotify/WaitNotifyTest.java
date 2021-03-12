@@ -20,42 +20,9 @@ package cn.chenhenry.java.waitnotify;
 public class WaitNotifyTest {
     private static final Object object = new Object();
 
-    private static class Thread1 extends Thread {
-        @Override
-        public void run() {
-            System.out.println("进入线程" + Thread.currentThread().getName());
-            // 如果没有synchronized会报Exception in thread "Thread-1" java.lang.IllegalMonitorStateException
-            // 因为Object.wait的执行必须要获取对象的monitor
-            synchronized (object) {
-                try {
-                    object.wait();
-                    // 这个时候已经把锁交出去, 并阻塞在这儿了
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
-                System.out.println("线程" + Thread.currentThread().getName() + "获得了锁.");
-            }
-        }
-    }
-
-    private static class Thread2 extends Thread {
-        @Override
-        public void run() {
-            System.out.println("进入线程" + Thread.currentThread().getName());
-            // 如果没有synchronized会报Exception in thread "Thread-1" java.lang.IllegalMonitorStateException
-            // 因为Object.wait的执行必须要获取对象的monitor
-            synchronized (object) {
-                object.notify();
-                System.out.println("线程"+Thread.currentThread().getName()+"调用了object.notify()");
-            }
-
-            System.out.println("线程"+Thread.currentThread().getName()+"释放了锁");
-        }
-    }
-
     public static void main(String[] args) {
-        Thread thread1 = new Thread1();
-        Thread thread2 = new Thread2();
+        Thread thread1 = new Thread1(object);
+        Thread thread2 = new Thread2(object);
 
         thread1.start();
 

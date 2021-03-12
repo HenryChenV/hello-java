@@ -39,6 +39,10 @@
     <module>hello-validation</module>
     <module>hello-javaagent</module>
     <module>hello-javaagent-test</module>
+    <module>hello-nio</module>
+    <module>hello-proxy</module>
+      <module>hello-utils</module>
+      <module>hello-rocketmq</module>
   </modules>
 
   <dependencies>

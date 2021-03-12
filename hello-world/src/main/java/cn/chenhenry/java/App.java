@@ -2,8 +2,6 @@ package cn.chenhenry.java;
 
 import org.junit.Test;
 
-import java.lang.reflect.Array;
-import java.nio.file.Files;
 import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -48,4 +46,13 @@ public class App
         ));
 
     }
+
+    @Test
+    public void testToString() {
+        Map<Long, List<Long>> map = new HashMap<>();
+        map.put(1L, Arrays.asList(3L, 4L, 5L));
+
+        System.out.println(map.toString());
+    }
+
 }
