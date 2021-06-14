@@ -1,8 +1,5 @@
 package cn.chenhenry.java.forkjoin;
 
-import com.sun.tools.doclets.formats.html.SourceToHTMLConverter;
-import javafx.scene.effect.BlurType;
-import org.junit.Test;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
