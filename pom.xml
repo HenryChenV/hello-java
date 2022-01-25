@@ -43,6 +43,10 @@
     <module>hello-proxy</module>
       <module>hello-utils</module>
       <module>hello-rocketmq</module>
+      <module>benchmark</module>
+      <module>hello-log4j2</module>
+      <module>hello-rmi</module>
+      <module>hello-btrace</module>
   </modules>
 
   <dependencies>

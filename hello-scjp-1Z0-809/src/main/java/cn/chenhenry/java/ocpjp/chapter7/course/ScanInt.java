@@ -1,6 +1,5 @@
 package cn.chenhenry.java.ocpjp.chapter7.course;
 
-import sun.jvm.hotspot.utilities.Interval;
 
 import java.util.*;
 

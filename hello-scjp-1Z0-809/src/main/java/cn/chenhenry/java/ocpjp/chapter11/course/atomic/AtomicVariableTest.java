@@ -1,11 +1,5 @@
 package cn.chenhenry.java.ocpjp.chapter11.course.atomic;
 
-import org.omg.PortableServer.THREAD_POLICY_ID;
-import sun.jvm.hotspot.debugger.win32.coff.DebugVC50SSPreComp;
-
-import java.util.HashSet;
-import java.util.List;
-import java.util.Stack;
 import java.util.concurrent.atomic.AtomicInteger;
 
 class Counter {
