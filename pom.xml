@@ -47,6 +47,12 @@
       <module>hello-log4j2</module>
       <module>hello-rmi</module>
       <module>hello-btrace</module>
+      <module>hello-bytebuddy</module>
+      <module>hello-opentelemetry-extensions</module>
+      <module>hello-byte-buddy</module>
+      <module>javaagent</module>
+    <module>hello-byte-buddy-javaagent</module>
+      <module>hello-netty</module>
   </modules>
 
   <dependencies>
