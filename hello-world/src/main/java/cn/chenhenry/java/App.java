@@ -4,6 +4,7 @@ import org.junit.Test;
 
 import java.util.*;
 import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 /**
@@ -21,6 +22,16 @@ public class App
         System.out.println(Arrays.toString("1.2.3.4.5".split("\\.")));
         // System.out.println( "Hello World!" );
         // listAll(1, 2, 3, 4);
+    }
+
+    @Test
+    public void test2() {
+        int baseDBShard = 0;
+        final List<Integer> results = IntStream
+                .range(baseDBShard, baseDBShard + 3)
+                .boxed()
+                .collect(Collectors.toList());
+        System.out.println(results);
     }
 
     @Test

@@ -2,7 +2,6 @@ package cn.chenhenry.java.staticproxy;
 
 import cn.chenhenry.java.target.IUserService;
 import cn.chenhenry.java.target.UserServiceImpl;
-import sun.usagetracker.UsageTrackerClient;
 
 /**
  * @author henrychen

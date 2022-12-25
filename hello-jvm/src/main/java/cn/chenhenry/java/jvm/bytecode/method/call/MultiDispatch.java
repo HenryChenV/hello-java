@@ -1,7 +1,5 @@
 package cn.chenhenry.java.jvm.bytecode.method.call;
 
-import com.sun.prism.shader.DrawCircle_LinearGradient_PAD_AlphaTest_Loader;
-
 /**
  * @author henrychen
  * @date created at 2020/8/26 10:55 上午

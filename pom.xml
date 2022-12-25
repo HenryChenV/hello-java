@@ -50,7 +50,7 @@
       <module>hello-bytebuddy</module>
       <module>hello-opentelemetry-extensions</module>
       <module>hello-byte-buddy</module>
-      <module>javaagent</module>
+<!--      <module>javaagent</module>-->
     <module>hello-byte-buddy-javaagent</module>
       <module>hello-netty</module>
   </modules>
